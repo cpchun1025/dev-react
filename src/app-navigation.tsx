@@ -65,5 +65,25 @@ export const navigation = [
         text: 'Tasks'
       }
     ]
+  }, 
+  {
+    text: 'Standardbau',
+    path: '/standardbau',
+    icon: 'add'
+  }, 
+  {
+    text: 'Cf',
+    path: '/cf',
+    icon: 'add'
+  }, 
+  {
+    text: 'Ncf',
+    path: '/ncf',
+    icon: 'add'
+  }, 
+  {
+    text: 'Utility',
+    path: '/utility',
+    icon: 'add'
   }
   ];

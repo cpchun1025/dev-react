@@ -5,3 +5,12 @@ export { default as ResetPasswordForm } from './reset-password-form/ResetPasswor
 export { default as CreateAccountForm } from './create-account-form/CreateAccountForm';
 export { default as ChangePasswordForm } from './change-password-form/ChangePasswordForm';
 export { default as SideNavigationMenu } from './side-navigation-menu/SideNavigationMenu';
+
+export { StatusIndicator } from './library/status-indicator/StatusIndicator';
+
+export { TaskListGrid } from './library/task-list-grid/TaskListGrid';
+export { TaskListKanban } from './library/task-list-kanban/TaskListKanban';
+export { TaskListGantt } from './library/task-list-gantt/TaskListGantt';
+export { FormPopup } from './utils/form-popup/FormPopup';
+export { FormTextbox } from './utils/form-textbox/FormTextbox';
+export { TaskFormDetails } from './library/task-form/TaskFormDetails';

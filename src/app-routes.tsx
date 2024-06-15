@@ -1,10 +1,10 @@
-import { HomePage, TasksPage, ProfilePage } from './pages';
+import { HomePage, PlanningTaskList, ProfilePage, StandardbauPage, CfPage, NcfPage, UtilityPage } from './pages';
 import { withNavigationWatcher } from './contexts/navigation';
 
 const routes = [
     {
-        path: '/tasks',
-        element: TasksPage
+        path: '/planning-task-list',
+        element: PlanningTaskList
     },
     {
         path: '/profile',
@@ -13,7 +13,23 @@ const routes = [
     {
         path: '/home',
         element: HomePage
-    }
+    }, 
+  {
+    path: '/standardbau',
+    element: StandardbauPage
+  }, 
+  {
+    path: '/cf',
+    element: CfPage
+  }, 
+  {
+    path: '/ncf',
+    element: NcfPage
+  }, 
+  {
+    path: '/utility',
+    element: UtilityPage
+  }
 ];
 
 export default routes.map(route => {

@@ -10,16 +10,24 @@
     "@types/node": "^16.18.98",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4",
-    "sass": "^1.34.1",
-    "react-router-dom": "^6.3.0",
-    "react-app-polyfill": "^1.0.0",
+    "@types/react-router-dom": "^5.1.5",
+    "classnames": "^2.3.1",
     "devextreme": "23.2.6",
-    "devextreme-react": "23.2.6"
+    "devextreme-react": "23.2.6",
+    "dx-template-gallery-data": "file:packages/dx-template-gallery-data",
+    "exceljs": "^4.3.0",
+    "file-saver-es": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.25",
+    "luxon": "^3.3.0",
+    "react": "^18.1.0",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.34.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,7 +56,15 @@
     ]
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "devextreme-cli": "1.6.9",
-    "devextreme-themebuilder": "23.2.6"
+    "devextreme-themebuilder": "23.2.6",
+    "eslint": "^8.55.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-react": "^7.33.2",
+    "sass": "^1.34.1",
+    "typescript": "^4.8.4"
   }
 }
