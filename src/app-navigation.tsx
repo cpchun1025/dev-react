@@ -14,7 +14,7 @@ export const navigation = [
       },
       {
         text: 'Tasks',
-        path: '/tasks'
+        path: '/planning-task-list'
       }
     ]
   },
