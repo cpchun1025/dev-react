@@ -1,12 +1,12 @@
 export const navigation = [
   {
-    text: 'Home',
+    text: 'Dashboard',
     path: '/home',
-    icon: 'home'
+    icon: 'chart'
   },
   {
-    text: 'Examples',
-    icon: 'folder',
+    text: 'Examples 1',
+    icon: 'card',
     items: [
       {
         text: 'Profile',
@@ -15,6 +15,54 @@ export const navigation = [
       {
         text: 'Tasks',
         path: '/tasks'
+      }
+    ]
+  },
+  {
+    text: 'Examples 2',
+    icon: 'event',
+    items: [
+      {
+        text: 'Profile'
+      },
+      {
+        text: 'Tasks'
+      }
+    ]
+  },
+  {
+    text: 'Examples 3',
+    icon: 'user',
+    items: [
+      {
+        text: 'Profile'
+      },
+      {
+        text: 'Tasks'
+      }
+    ]
+  },
+  {
+    text: 'Examples 4',
+    icon: 'folder',
+    items: [
+      {
+        text: 'Profile'
+      },
+      {
+        text: 'Tasks'
+      }
+    ]
+  },
+  {
+    text: 'Examples 5',
+    icon: 'box',
+    items: [
+      {
+        text: 'Profile'
+      },
+      {
+        text: 'Tasks'
       }
     ]
   }
